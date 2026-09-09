@@ -5,44 +5,6 @@ mode: rule
 log-level: info
 proxies:
 - name: 🇸🇨 SC 01 - xiaohe
-  type: vless
-  server: 8.6.112.9
-  port: 443
-  uuid: 11e9eea1-b1a9-4f02-a1a1-b24f7664b1cf
-  udp: true
-  tls: true
-  skip-cert-verify: true
-  servername: ancIEnt-HeaRt-60c5.dPccgIzieB.WoRKers.dEV
-  network: ws
-  ws-opts:
-    path: /eyJqdW5rIjoiYW1sczlYWkFHOCIsInByb3RvY29sIjoidmwiLCJtb2RlIjoicHJveHlpcCIsInBhbmVsSVBzIjpbXX0
-    headers:
-      Host: ancient-heart-60c5.dpccgizieb.workers.dev
-- name: 🇸🇨 SC 02 - xiaohe
-  type: vless
-  server: 104.18.0.1
-  port: 443
-  uuid: 3ccba794-1c6d-48a8-acf2-f5caf0e69d86
-  udp: true
-  tls: true
-  skip-cert-verify: true
-  servername: all.speedtest03.ccwu.cc
-  network: ws
-  ws-opts:
-    path: /
-    headers:
-      Host: all.speedtest03.ccwu.cc
-- name: 🇸🇨 SC 03 - xiaohe
-  type: vmess
-  server: 156.226.183.181
-  port: 54321
-  uuid: d3bcc1f1-6294-4f68-bcf3-c3bcb2001520
-  alterId: 0
-  cipher: auto
-  udp: true
-  tls: false
-  skip-cert-verify: true
-- name: 🇸🇨 SC 04 - xiaohe
   type: vmess
   server: 156.226.183.181
   port: 54321
@@ -58,17 +20,11 @@ proxy-groups:
   proxies:
   - AUTO
   - 🇸🇨 SC 01 - xiaohe
-  - 🇸🇨 SC 02 - xiaohe
-  - 🇸🇨 SC 03 - xiaohe
-  - 🇸🇨 SC 04 - xiaohe
 - name: AUTO
   type: url-test
   url: https://www.google.com/generate_204
   interval: 300
   proxies:
   - 🇸🇨 SC 01 - xiaohe
-  - 🇸🇨 SC 02 - xiaohe
-  - 🇸🇨 SC 03 - xiaohe
-  - 🇸🇨 SC 04 - xiaohe
 rules:
 - MATCH,PROXIES
