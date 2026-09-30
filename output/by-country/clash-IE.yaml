@@ -6,104 +6,6 @@ log-level: info
 proxies:
 - name: 🇮🇪 IE 01 - xiaohe
   type: vless
-  server: 188.114.97.7
-  port: 2083
-  uuid: 8525fe74-67e6-4a55-8a26-95f227bd1384
-  udp: true
-  tls: true
-  skip-cert-verify: true
-  servername: shy-fog-af06.alvlirm333.workers.dev
-  network: ws
-  ws-opts:
-    path: /
-    headers:
-      Host: shy-fog-af06.alvlirm333.workers.dev
-- name: 🇮🇪 IE 02 - xiaohe
-  type: vless
-  server: 188.114.97.6
-  port: 443
-  uuid: fdc48be3-a615-41ac-8bd1-ed844c931048
-  udp: true
-  tls: true
-  skip-cert-verify: true
-  servername: edgetunnel-4uw.pages.dev
-  network: ws
-  ws-opts:
-    path: /
-    headers:
-      Host: edgetunnel-4uw.pages.dev
-- name: 🇮🇪 IE 03 - xiaohe
-  type: vless
-  server: 188.114.97.6
-  port: 443
-  uuid: fdc48be3-a615-41ac-8bd1-ed844c931048
-  udp: true
-  tls: true
-  skip-cert-verify: true
-  servername: edgetunnel-4uw.pages.dev
-  network: ws
-  ws-opts:
-    path: /fp=chrome?ed#Telegram---PLANB_NET---PLANB_NET---PLANB_NET---PLANB_NET?ed=512
-    headers:
-      Host: edgetunnel-4uw.pages.dev
-- name: 🇮🇪 IE 04 - xiaohe
-  type: vless
-  server: 188.114.97.6
-  port: 443
-  uuid: 9e3132b8-b595-444a-833a-2de44789f9d7
-  udp: true
-  tls: true
-  skip-cert-verify: true
-  servername: shephe.dpdns.org
-  network: ws
-  ws-opts:
-    path: /?ed#Telegram---PLANB_NET---PLANB_NET---PLANB_NET---PLANB_NET
-    headers:
-      Host: shephe.dpdns.org
-- name: 🇮🇪 IE 05 - xiaohe
-  type: vless
-  server: 172.67.184.43
-  port: 443
-  uuid: 29fb68bb-ff05-4fd4-8393-cc6c05d81a79
-  udp: true
-  tls: true
-  skip-cert-verify: true
-  servername: purple-butterfly-8496.erfannull36.workers.dev
-  network: ws
-  ws-opts:
-    path: /
-    headers:
-      Host: purple-butterfly-8496.erfannull36.workers.dev
-- name: 🇮🇪 IE 06 - xiaohe
-  type: vless
-  server: 188.114.97.6
-  port: 443
-  uuid: fdc48be3-a615-41ac-8bd1-ed844c931048
-  udp: true
-  tls: true
-  skip-cert-verify: true
-  servername: edgetunnel-4uw.pages.dev
-  network: ws
-  ws-opts:
-    path: /
-    headers:
-      Host: edgetunnel-4uw.pages.dev
-- name: 🇮🇪 IE 07 - xiaohe
-  type: vless
-  server: 188.114.97.6
-  port: 443
-  uuid: fdc48be3-a615-41ac-8bd1-ed844c931048
-  udp: true
-  tls: true
-  skip-cert-verify: true
-  servername: edgetunnel-4uw.pages.dev
-  network: ws
-  ws-opts:
-    path: /?Telegram---PLANB_NET---PLANB_NET---PLANB_NET---PLANB_NET
-    headers:
-      Host: edgetunnel-4uw.pages.dev
-- name: 🇮🇪 IE 08 - xiaohe
-  type: vless
   server: 45.141.234.138
   port: 443
   uuid: fdc48be3-a615-41ac-8bd1-ed844c931048
@@ -116,62 +18,13 @@ proxies:
     path: /
     headers:
       Host: edgetunnel-4uw.pages.dev
-- name: 🇮🇪 IE 09 - xiaohe
-  type: vless
-  server: 188.114.97.6
+- name: 🇮🇪 IE 02 - xiaohe
+  type: ss
+  server: 20.123.34.66
   port: 443
-  uuid: fdc48be3-a615-41ac-8bd1-ed844c931048
+  cipher: chacha20-ietf-poly1305
+  password: r5D6YOSrT6kC76ro
   udp: true
-  tls: true
-  skip-cert-verify: true
-  servername: edgetunnel-4uw.pages.dev
-  network: ws
-  ws-opts:
-    path: /fp=chrome?ed#Telegram---PLANB_NET---PLANB_NET---PLANB_NET---PLANB_NET?ed=512
-    headers:
-      Host: edgetunnel-4uw.pages.dev
-- name: 🇮🇪 IE 10 - xiaohe
-  type: vless
-  server: 188.114.97.6
-  port: 443
-  uuid: fdc48be3-a615-41ac-8bd1-ed844c931048
-  udp: true
-  tls: true
-  skip-cert-verify: true
-  servername: edgetunnel-4uw.pages.dev
-  network: ws
-  ws-opts:
-    path: /?
-    headers:
-      Host: edgetunnel-4uw.pages.dev
-- name: 🇮🇪 IE 11 - xiaohe
-  type: vless
-  server: 188.114.97.6
-  port: 443
-  uuid: fdc48be3-a615-41ac-8bd1-ed844c931048
-  udp: true
-  tls: true
-  skip-cert-verify: true
-  servername: edgetunnel-4uw.pages.dev
-  network: ws
-  ws-opts:
-    path: /
-    headers:
-      Host: edgetunnel-4uw.pages.dev
-- name: 🇮🇪 IE 12 - xiaohe
-  type: vless
-  server: 104.21.91.244
-  port: 443
-  uuid: fdc48be3-a615-41ac-8bd1-ed844c931048
-  udp: true
-  tls: true
-  skip-cert-verify: true
-  servername: edgetunnel-4uw.pages.dev
-  network: ws
-  ws-opts:
-    path: /
-    headers:
-      Host: edgetunnel-4uw.pages.dev
 proxy-groups:
 - name: PROXIES
   type: select
@@ -179,16 +32,6 @@ proxy-groups:
   - AUTO
   - 🇮🇪 IE 01 - xiaohe
   - 🇮🇪 IE 02 - xiaohe
-  - 🇮🇪 IE 03 - xiaohe
-  - 🇮🇪 IE 04 - xiaohe
-  - 🇮🇪 IE 05 - xiaohe
-  - 🇮🇪 IE 06 - xiaohe
-  - 🇮🇪 IE 07 - xiaohe
-  - 🇮🇪 IE 08 - xiaohe
-  - 🇮🇪 IE 09 - xiaohe
-  - 🇮🇪 IE 10 - xiaohe
-  - 🇮🇪 IE 11 - xiaohe
-  - 🇮🇪 IE 12 - xiaohe
 - name: AUTO
   type: url-test
   url: https://www.google.com/generate_204
@@ -196,15 +39,5 @@ proxy-groups:
   proxies:
   - 🇮🇪 IE 01 - xiaohe
   - 🇮🇪 IE 02 - xiaohe
-  - 🇮🇪 IE 03 - xiaohe
-  - 🇮🇪 IE 04 - xiaohe
-  - 🇮🇪 IE 05 - xiaohe
-  - 🇮🇪 IE 06 - xiaohe
-  - 🇮🇪 IE 07 - xiaohe
-  - 🇮🇪 IE 08 - xiaohe
-  - 🇮🇪 IE 09 - xiaohe
-  - 🇮🇪 IE 10 - xiaohe
-  - 🇮🇪 IE 11 - xiaohe
-  - 🇮🇪 IE 12 - xiaohe
 rules:
 - MATCH,PROXIES
