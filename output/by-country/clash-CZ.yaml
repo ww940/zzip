@@ -6,18 +6,18 @@ log-level: info
 proxies:
 - name: 🇨🇿 CZ 01 - xiaohe
   type: vless
-  server: 104.21.68.250
-  port: 443
-  uuid: 3cd23424-7182-4f37-9461-7701917791f6
+  server: 188.114.97.1
+  port: 2053
+  uuid: 0b3e7958-e5c4-498f-ab21-b49686f95d2d
   udp: true
   tls: true
   skip-cert-verify: true
-  servername: NOde-562276409-eCe9Be.AcCouNT12.WORKERs.DeV
+  servername: bold-term-4edd.mbigspot.workers.dev
   network: ws
   ws-opts:
-    path: /vl/LoojiwDChctBr67OEQH2dfP05?ed=2560
+    path: /
     headers:
-      Host: node-562276409-ece9be.account12.workers.dev
+      Host: bold-term-4edd.mbigspot.workers.dev
 proxy-groups:
 - name: PROXIES
   type: select
