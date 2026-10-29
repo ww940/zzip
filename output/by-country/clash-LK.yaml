@@ -42,7 +42,7 @@ proxies:
   ws-opts:
     path: /
     headers:
-      Host: Free.nadun.store
+      Host: free.nadun.store
 - name: 🇱🇰 LK 04 - xiaohe
   type: vless
   server: support.zoom.us
@@ -55,7 +55,7 @@ proxies:
   ws-opts:
     path: /
     headers:
-      Host: free.nadun.store
+      Host: Free.nadun.store
 - name: 🇱🇰 LK 05 - xiaohe
   type: vless
   server: support.zoom.us
