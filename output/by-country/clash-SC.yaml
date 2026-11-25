@@ -5,19 +5,20 @@ mode: rule
 log-level: info
 proxies:
 - name: 🇸🇨 SC 01 - xiaohe
-  type: vless
-  server: 154.197.64.252
-  port: 443
-  uuid: 20b436fc-2c54-4248-b70d-14b8d6916d41
+  type: vmess
+  server: 156.239.224.107
+  port: 57278
+  uuid: 1270bed5-f908-4ecc-f1c8-de246033b186
+  alterId: 0
+  cipher: auto
   udp: true
-  tls: true
+  tls: false
   skip-cert-verify: true
-  servername: worker3.harijo3330.workers.dev
   network: ws
   ws-opts:
-    path: /HGCmKaXbRNqpZqMv
+    path: /
     headers:
-      Host: worker3.harijo3330.workers.dev
+      Host: ''
 proxy-groups:
 - name: PROXIES
   type: select
